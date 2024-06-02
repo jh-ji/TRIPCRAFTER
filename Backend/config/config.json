@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dbmasteruser",
+    "password": "",
+    "database": "data_team",
+    "host": "ls-6acaf0a366118845d345b391bb025de31876dbbf.clm0mwmc8uyi.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "dbmasteruser",
+    "password": "",
+    "database": "data_team",
+    "host": "ls-6acaf0a366118845d345b391bb025de31876dbbf.clm0mwmc8uyi.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "dbmasteruser",
+    "password": "",
+    "database": "data_team",
+    "host": "ls-6acaf0a366118845d345b391bb025de31876dbbf.clm0mwmc8uyi.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

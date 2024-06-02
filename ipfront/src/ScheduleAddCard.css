@@ -1,0 +1,68 @@
+.ScheduleAddCard{
+    margin: 8%;
+    border-radius: 20px;
+    
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    min-height: 20vh;
+}
+.ScheduleAddCard2{
+    margin: 8%;
+    border-radius: 20px;
+    transform: translateY(-20vh);
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    min-height: 20vh;
+}
+.placeName{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid gray;
+}
+.address{
+    font-size: small;
+}
+.rating{
+    font-size: medium;
+}
+.openingHours{
+    font-size: small;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.phoneNumber{
+    font-size: small;
+}
+.reviews{
+    font-size:smaller;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    
+    
+}
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+  width: 80%; /* 입력 요소의 너비를 100%로 설정하여 폼 너비 내에 꽉 차게 만듭니다. */
+  
+  
+  
+  border-radius: 10px; /* 모서리 둥글게 설정 */
+  background-color: #bcbcbc; /* 입력 요소의 배경색 설정 */
+  color: black; /* 텍스트 색상 설정 */
+  font-size: large; /* 폰트 크기 설정 */
+  font-weight: 600;
+}
+.inputText{
+    border-radius: 25px;
+    width:80%;
+    height: 9vh;
+    text-align: center;
+    border-radius: 3px;
+    border: 0px solid gray;
+   
+   
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    background-color:rgba(255, 255, 255, 0.85);
+  }

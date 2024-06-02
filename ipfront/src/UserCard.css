@@ -1,0 +1,51 @@
+.UserCard{
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+}
+.UserCard2{
+    padding-top: 1vh;
+    margin-top: 10%;
+    width:100%;
+    height:auto;
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    background-color:rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+}
+
+.name{
+    
+    font-size: larger;
+    font-weight: 600;
+}
+.tel{
+    font-size:large;
+    font-weight: 600;
+    color:gray;
+}
+.bottomButton2{
+    margin-top: 1vh;
+    width: 50%;
+    height:5vh;
+    border: none;
+    font-weight: 600;
+    /*background-color: rgb(129, 121, 121);*/
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    border-radius: 64px;
+    color: white;
+    cursor:pointer;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease;
+    font-size: medium;
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    
+  }
+  .bottomButton2:hover{
+    /*background-color: rgb(129, 121, 121);
+    border: none;
+    color:white;
+    transform:scale(1.1);*/
+    background-color: rgb(129, 121, 121);
+    color:white;
+    transform:scale(1.1);
+}

@@ -1,0 +1,73 @@
+.title{
+    margin-top: 20vh;
+    font-size: xx-large;
+    color: white;
+    font-weight: 1000;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.subtitle{
+    color: white;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+}
+
+.inputbox{
+    width:20%;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    border: 0px solid gray;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    /*font-weight: 1000;*/
+    color: /*rgba(255, 255, 255, 0.7)*/white;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+}
+  .inputbox:focus{
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    
+  }
+
+  .bottomButton{
+    margin-top: 3vh;
+    width: 15%;
+    height:43px;
+    border:white;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 64px;
+    color: white;
+    cursor:pointer;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease;
+    font-size: 17px;
+    animation: fadein 10;
+    -webkit-animation: fadein 10s;
+  }
+  .bottomButton:hover{
+    background-color: rgb(129, 121, 121);
+    color:white;
+    transform:scale(1.1);
+  }

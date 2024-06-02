@@ -1,0 +1,67 @@
+.content2{
+    background-color: rgba(255,255,255,0);
+    height: 65vh;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: larger;
+    font-weight: 1000;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*box-shadow:0px 0px 20px 0px rgb(204, 204, 204);*/
+    
+    border-radius: 15px;
+    overflow-y:auto; /* 세로 스크롤을 자동으로 추가 */
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 두 개의 컬럼을 동일한 너비로 설정 */
+    grid-gap: 20px;
+}
+.search2{
+    background-image: url(./search.png);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    height:6vh;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    /*border: 2px solid black;*/
+    font-weight: 600;
+    text-align: center;
+    width: 96%;
+    border-radius: 64px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size:medium;
+    z-index: 1;
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+}
+
+.box{
+    
+    border-bottom: 2px solid black;
+    padding-bottom: 3vh;
+    
+    font-weight: 1000;
+}
+/* 스크롤바의 기본 설정 */
+::-webkit-scrollbar {
+    width: 8px; /* 스크롤바의 너비 */
+  }
+  
+  /* 스크롤바의 트랙(바탕부분) 설정 */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* 스크롤바의 트랙 배경색 */
+  }
+  
+  /* 스크롤바의 색상 설정 */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* 스크롤바의 색상 */
+    border-radius: 6px; /* 스크롤바의 모서리 반경 */
+  }
+  .re{
+    border-radius: 5px;
+    outline: none;
+    outline-width: 0px;
+    background-color: rgb(215, 215, 215);
+    border:gray;
+    font-weight: 500;
+    cursor: pointer;
+  }

@@ -1,0 +1,166 @@
+.Schedule{
+    
+    background-color: black;
+    min-height: 100vh;
+}
+
+.searchSchedule{
+    background-image: url(./search.png);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    height:6vh;
+    background-color: rgb(255, 255, 255);
+    border: 0px white;
+    font-weight: 600;
+    text-align: center;
+    width: 40vw;
+    border-radius: 64px;
+    color: black;
+    font-size:medium;
+    box-shadow:0px 0px 20px 0px rgb(204, 204, 204);
+    
+}
+.content3-1{
+    background-color: rgba(255,255,255,0);
+    height: 100vh;
+    margin: none;
+    padding: none;
+    font-size: larger;
+    font-weight: 1000;
+    overflow: hidden;
+    
+}
+.content3-2{
+   
+    background-color: white;
+    height: 100vh;
+    margin: none;
+    padding: none;
+    font-size: larger;
+    font-weight: 1000;
+    overflow-y: scroll;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.97fr 0.03fr; /* 두 개의 컬럼을 동일한 너비로 설정 */
+    background-color: white;
+    grid-gap:0px;
+}
+.widthbutton{
+    
+    text-align: left;
+    display: inline-block;
+    
+    border:none;
+    margin: 0;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+   
+    background-color: white;
+    content: "";
+    border-style: hidden;
+border: 0px;
+border-width: 0px;
+}
+.widthbuttondiv{
+    margin-top: 15px;
+    margin-right: 7px;
+    position: absolute;
+    right:0;
+    display: inline-block;
+    outline: none;
+    border: 0;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    
+    background-color: white;
+    content: "";
+    border-style: hidden;
+border: 0px;
+border-width: 0px;
+background-image: url(./menu.png);
+}
+.menu{
+
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    object-fit: cover;
+    background-image: url(./menu.png);
+    outline: none;
+    border:none;
+    content: "";
+    border-style: hidden;
+border: 0px;
+border-width: 0px;
+border: none !important;
+border-image-width: 0px;  
+
+}
+.menu_friend{
+
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    object-fit: cover;
+    background-image: url(./friend.png);
+    outline: none;
+    border:none;
+    content: "";
+    border-style: hidden;
+border: 0px;
+border-width: 0px;
+border: none !important;
+border-image-width: 0px;  
+
+}
+.menu_calender{
+
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    object-fit: cover;
+    background-image: url(./calender.png);
+    outline: none;
+    border:none;
+    content: "";
+    border-style: hidden;
+border: 0px;
+border-width: 0px;
+border: none !important;
+border-image-width: 0px;  
+
+}
+input:focus {
+    /*outline:2px solid black;*/
+    background-color: rgb(255, 255, 255);
+    
+}
+.content3-2::-webkit-scrollbar {
+    display: none; /* 스크롤바 숨김 */
+  }
+  input[type="date"],
+input[type="time"],
+input[type="submit"] {
+  width: 80%; /* 입력 요소의 너비를 100%로 설정하여 폼 너비 내에 꽉 차게 만듭니다. */
+  margin-top: 4%;
+  
+  
+  border-radius: 10px; /* 모서리 둥글게 설정 */
+  background-color: #bcbcbc; /* 입력 요소의 배경색 설정 */
+  color: black; /* 텍스트 색상 설정 */
+  font-size: large; /* 폰트 크기 설정 */
+  font-weight: 600;
+}
+
+.ment{
+    margin-top: 3%;
+    padding-bottom: 3%;
+    /*border-bottom: 1px solid gray;*/
+    margin-left: 8%;
+    margin-right: 8%;
+}

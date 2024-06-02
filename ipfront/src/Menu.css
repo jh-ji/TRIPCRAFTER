@@ -1,0 +1,110 @@
+.title{
+    margin-top: 20vh;
+    font-size: xx-large;
+    color: white;
+    font-weight: 1000;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.content{
+  text-align:center;
+   
+  min-height: 100vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color:rgba(255, 255,255, 0.0);
+  
+  /*height: auto;*/
+}
+
+.search{
+    background-image: url(./search.png);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    height:6vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px white;
+    font-weight: 600;
+    text-align: center;
+    width: 40vw;
+    border-radius: 64px;
+    color: black;
+    font-size:medium;
+    
+}
+input:focus {
+    outline:2px solid white;
+    background-color: rgba(255, 255, 255, 1.0)
+    
+}
+.inputgenderset{
+    color: rgb(177, 177, 177);
+    width:20%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px ;
+  font-weight: 600;
+  
+  background-color: rgba(255, 255, 255, 0.2)
+}
+.submit{
+ color:rgb(177, 177, 177);
+    width:20%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px ;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.submit:hover{
+    background-color: white;
+    color:black;
+   
+}
+/*.content2{
+    background-color:rgba(255, 255, 255, 0.9);
+    min-height: 100vh;
+   
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 두 개의 컬럼을 동일한 너비로 설정 */
+    grid-gap: 20px;
+}
+.search2{
+    background-image: url(./search.png);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    height:6vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px white;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+    border-radius: 64px;
+    color: black;
+    font-size:medium;
+    
+}
