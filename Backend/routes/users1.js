@@ -49,7 +49,9 @@ router.get('/getfriends/:tel', async (req, res, next) => {
       }
       
       const groupname = groupnameQuery.groupname;
-      
+      if(!groupname||groupname==""){
+        return res.json([]);
+      }
       const matchedData = await User.findAll({
           where: { groupname: groupname, tel: { [Op.ne]: tel } },
           attributes: ['tel', 'name']
