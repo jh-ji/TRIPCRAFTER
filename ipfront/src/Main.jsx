@@ -16,35 +16,13 @@ function Main(){
       }
     
     const goToMenu = () => {
-        //console.log(tel,name,'1');
         axios.post('http://3.38.231.37:3002/users/usercheckin',{
           name:name,
           tel:tel
         })
         .then(response => {
-          
-          //console.log('응답 데이터:', response.data);
-          /*
-          if(response.data.tel.includes(tel)){
-            
-          }
-          else{
-            const data={
-              tel:tel,
-              name:name
-            }
-            axios.post('/api/users',data)
-            .then(response=>{
-              console.log(response.data);
-            })
-            .catch(error=>{
-              console.error(error);
-            })
-          }
-          */
         })
         .catch(error => {
-          
           console.error('에러 발생:', error);
         });
         navigate('/Menu',{state : {tel:tel,name:name}});

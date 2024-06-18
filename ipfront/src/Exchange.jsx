@@ -26,22 +26,14 @@ const Exchange=(props)=>{
             axios.get('https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.KRWJPY', {
               })
               .then((response) => {
-                
-                console.log('살떄='+response.data[0].cashBuyingPrice);
                 setBuyPrice(+response.data[0].cashBuyingPrice);
-                console.log('팔때='+response.data[0].cashSellingPrice);
                 setSellPrice(response.data[0].cashSellingPrice);
-                console.log('송금보낼때='+response.data[0].ttSellingPrice);
                 setttBuyPrice(response.data[0].ttSellingPrice);
-                console.log('송금받을때='+response.data[0].ttBuyingPrice);
                 setttSellPrice(response.data[0].ttBuyingPrice);
               })
               .catch((error) => {
-                // 예외 처리
-                
                 console.log(error);
               })
-
               axios.get('https://quotation-api-cdn.dunamu.com/v1/forex/recent?codes=FRX.KRWUSD', {
               })
               .then((response) => {

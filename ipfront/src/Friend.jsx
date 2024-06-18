@@ -29,9 +29,8 @@ function Friend (){
         .catch((error) => {
           // 응답데이터가 없어서 404받았을 때 예외 처리
         })
-         console.log('input'+searchUser);
-         setSearch(true);  //임시용 api완성되면 .then안으로 옮김
-         //setUser(tempdata); //임시용 api완성되면 .then안으로 옮김
+         setSearch(true);  
+  
        }
        let tempdata2=[{tel:'01052815555',name:'친구1'},
                       {tel:'010321111',name: '친구2'},
@@ -40,16 +39,12 @@ function Friend (){
     const getFriends=()=>{
        axios.get(`http://3.38.231.37:3002/users/getfriends/${tel}`).then((res)=>{
             setFriend(res.data);
-
          })
          .then((response) => {
-
         })
         .catch((error) => {
-          // 응답데이터가 없어서 404받았을 때 예외 처리
         })
-        //console.log('getfriend');
-        //setFriend(tempdata2); //임시용 api완성되면 .then안으로 옮김
+ 
       }
     
     useEffect(()=>{

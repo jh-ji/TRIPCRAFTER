@@ -373,8 +373,7 @@ function Schedule(){
                 {menustate&&datecheck&&
                 
                 schedules.map((data)=>{
-                  //console.log(data.date,settingDate);
-                  //선택한 날짜랑 scheduleDetail에서 가져온 일정의 날짜랑 일치하는것만 보여주기위함
+                  
                   if(data.date==settingDate.toLocaleDateString('en-CA')){  
                     return(
                       <ScheduleCard

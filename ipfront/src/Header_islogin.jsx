@@ -201,7 +201,7 @@ export const Header_islogin =(props)=>{
                                   <br></br>
                                   <input 
                                     type="text" 
-                                    name="tel" 
+                                    name="scheduleName" 
                                     placeholder="" 
                                     className="inputbox2" 
                                     value={scheduleName}
@@ -212,8 +212,8 @@ export const Header_islogin =(props)=>{
                                   <div className='boxtop'>여행 시작하는날</div>
                                   <input 
                                     type="date" 
-                                    name="visitdate" 
-                                    placeholder="방문일자" 
+                                    name="startDate" 
+                                    placeholder="" 
                                     className="inputbox2" 
                                     value={startDate}
                                     onChange={handleStartDate}
@@ -224,8 +224,8 @@ export const Header_islogin =(props)=>{
                                     <div className='boxtop'>여행 끝나는날</div>
                                   <input 
                                     type="date" 
-                                    name="visitdate" 
-                                    placeholder="방문일자" 
+                                    name="endDate" 
+                                    placeholder="" 
                                     className="inputbox2" 
                                     value={endDate}
                                     onChange={handleEndDate}
