@@ -1,5 +1,5 @@
 ## 친구들과 여행일정을 공유하는 웹사이트 TRIPCRAFTER입니다. 
-##### (2인 팀프로젝트로 프론트와 API일부를 개발하였음.)
+##### (2인 팀프로젝트로 본인은 프론트와 API일부를 개발하였음.)
 ![구조](https://github.com/jh-ji/TRIPCRAFTER/blob/master/%EA%B5%AC%EC%A1%B0%EB%8F%84.png?raw=true)
 ### 전체 구조도
 ![화면1](https://github.com/jh-ji/TRIPCRAFTER/blob/master/%ED%99%94%EB%A9%B41.png?raw=true)
