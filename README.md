@@ -1,4 +1,4 @@
-# 친구들과 여행일정을 공유하는 웹사이트 TRIPCRAFTER입니다.
+## 친구들과 여행일정을 공유하는 웹사이트 TRIPCRAFTER입니다.
 ![화면1](https://github.com/jh-ji/TRIPCRAFTER/blob/master/%ED%99%94%EB%A9%B41.png?raw=true)
 ### 접속시 화면
 ![화면2](https://github.com/jh-ji/TRIPCRAFTER/blob/master/%ED%99%94%EB%A9%B42.png?raw=true)
